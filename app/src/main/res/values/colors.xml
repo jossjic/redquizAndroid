@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="signosVitales">#709BF68B</color>
+    <color name="curacion">#70FDA2D8</color>
+    <color name="sintomas">#70AAFDF6</color>
+    <color name="anatomia">#75FAED97</color>
+    <color name="bonus">#70C9A3FF</color>
+    <color name="botones">#EAEAEA</color>
+    <color name="actual">#FFFF0000</color>
+    <color name="pendiente">#FFDCD9D9</color>
+    <color name="blancoH">#EAE4E4</color>
+    <color name="verdeH">#55C13C</color>
+    <color name="naranjaH">#EC823C</color>
+    <color name="cruzRoja">#2F3D8A</color>
+    <color name="pantalonH1">#4AA2FF</color>
+    <color name="pantalonH2">#ADD3FC</color>
+    <color name="pantalonH3">#E7EDF4</color>
+    <color name="pantalonH4">#9A6E3F</color>
+    <color name="azulM">#9DC9FB</color>
+    <color name="rosaM">#EB6789</color>
+    <color name="green">#39DA39</color>
+    <color name="gray">#F1F1F1</color>
+</resources>

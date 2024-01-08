@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "243470132079",
+    "project_id": "cruzroja-e6383",
+    "storage_bucket": "cruzroja-e6383.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243470132079:android:4e667406f3e4e018903e9a",
+        "android_client_info": {
+          "package_name": "com.example.proyectoredquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc192KMyTeZKyOvWzRFX8CM51bDGD_0zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243470132079:android:9750a1b7c9231d11903e9a",
+        "android_client_info": {
+          "package_name": "com.example.voluntaria360"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc192KMyTeZKyOvWzRFX8CM51bDGD_0zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243470132079:android:a99f2a8a406948df903e9a",
+        "android_client_info": {
+          "package_name": "mx.tec.a01736594"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc192KMyTeZKyOvWzRFX8CM51bDGD_0zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

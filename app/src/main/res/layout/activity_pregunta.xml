@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreguntaActivity">
+
+    <Button
+        android:id="@+id/r4"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#EAEAEA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,VisualLintButtonSize,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/r2"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#EAEAEA"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r1"
+        tools:ignore="HardcodedText,VisualLintButtonSize,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_volverJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Volver"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText,TextContrastCheck,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/colorCaregoria"
+        android:layout_width="409dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="100dp"
+        android:background="#709BF68B"
+        android:backgroundTint="#709BF68B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="37dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/colorCaregoria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/corazon"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/vidasJ"
+        android:layout_width="35dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="2dp"
+        android:text="X 5"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/colorCaregoria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/categoriaJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signos Vitales"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/colorCaregoria"
+        app:layout_constraintEnd_toEndOf="@+id/colorCaregoria"
+        app:layout_constraintStart_toStartOf="@+id/colorCaregoria"
+        app:layout_constraintTop_toTopOf="@+id/colorCaregoria"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="410dp"
+        android:layout_height="216dp"
+        android:background="#E1E1E1"
+        android:backgroundTint="#E1E1E1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorCaregoria"
+        tools:ignore="VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/r1"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#EAEAEA"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        tools:ignore="HardcodedText,VisualLintButtonSize,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/r3"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#EAEAEA"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r2"
+        tools:ignore="HardcodedText,VisualLintButtonSize,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="379dp"
+        android:layout_height="182dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/colorCaregoria" />
+
+    <TextView
+        android:id="@+id/preguntaJ"
+        android:layout_width="259dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="5dp"
+        android:paddingTop="10sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="@+id/textView34"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toTopOf="@+id/textView34"
+        tools:ignore="HardcodedText" />
+
+    <ProgressBar
+        android:id="@+id/duracion"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/r1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

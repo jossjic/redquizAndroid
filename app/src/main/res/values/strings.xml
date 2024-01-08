@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RedQuiz</string>
+    <string name="rating">Rating</string>
+    <string name="ingresar_la_informaci_n_de_la_pregunta">Ingresar la información de la pregunta</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="gender_array">
+        <item>Femenino</item>
+        <item>Masculino</item>
+    </string-array>
+
+    <string-array name="categrias_array">
+        <item>Signos Vitales</item>
+        <item>Curación</item>
+        <item>Síntomas</item>
+        <item>Anatomía</item>
+        <item>Bonus</item>
+    </string-array>
+
+    <string-array name="categrias_array2">
+        <item>Todos</item>
+        <item>Signos Vitales</item>
+        <item>Curación</item>
+        <item>Síntomas</item>
+        <item>Anatomía</item>
+        <item>Bonus</item>
+    </string-array>
+</resources>

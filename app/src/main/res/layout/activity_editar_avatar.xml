@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarAvatar">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="411dp"
+        android:layout_height="86dp"
+        android:background="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_volverA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#FF0000"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_guardarA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:text="Guardar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints,UselessLeaf" />
+
+    <ImageView
+        android:id="@+id/avatar2"
+        android:layout_width="298dp"
+        android:layout_height="437dp"
+        android:layout_marginBottom="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.262"
+        app:srcCompat="@drawable/hombre"
+        tools:ignore="ContentDescription,UnknownIdInLayout" />
+
+    <Button
+        android:id="@+id/btn_inf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:backgroundTint="#DCD9D9"
+        android:text="Inferior"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/color1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#EAE4E4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/color3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#55C13C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/color4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#2F3D8A"
+        android:text="Cruz Roja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/color2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#EC823C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/btn_sup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="130dp"
+        android:backgroundTint="#FF0000"
+        android:text="Superior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="96dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar2"
+        app:layout_constraintEnd_toEndOf="@+id/avatar2"
+        app:layout_constraintStart_toStartOf="@+id/avatar2"
+        app:layout_constraintTop_toTopOf="@+id/avatar2"
+        app:layout_constraintVertical_bias="0.966"
+        app:srcCompat="@drawable/zapatoshombre"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/inferiorHombre"
+        android:layout_width="214dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar2"
+        app:layout_constraintEnd_toEndOf="@+id/avatar2"
+        app:layout_constraintStart_toStartOf="@+id/avatar2"
+        app:layout_constraintTop_toTopOf="@+id/avatar2"
+        app:srcCompat="@drawable/pantalonhombrea"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/superiorHombre"
+        android:layout_width="197dp"
+        android:layout_height="225dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar2"
+        app:layout_constraintEnd_toEndOf="@+id/avatar2"
+        app:layout_constraintStart_toStartOf="@+id/avatar2"
+        app:layout_constraintTop_toTopOf="@+id/avatar2"
+        app:srcCompat="@drawable/basicahombreb"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/inferiorM"
+        android:layout_width="224dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar2"
+        app:layout_constraintEnd_toEndOf="@+id/avatar2"
+        app:layout_constraintStart_toStartOf="@+id/avatar2"
+        app:layout_constraintTop_toTopOf="@+id/avatar2"
+        app:layout_constraintVertical_bias="0.755"
+        app:srcCompat="@drawable/pantalonmujera"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/superiorM"
+        android:layout_width="209dp"
+        android:layout_height="201dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar2"
+        app:layout_constraintEnd_toEndOf="@+id/avatar2"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/avatar2"
+        app:layout_constraintTop_toTopOf="@+id/avatar2"
+        app:layout_constraintVertical_bias="0.365"
+        app:srcCompat="@drawable/basicamujerb"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/zapatosM"
+        android:layout_width="68dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/avatar2"
+        app:layout_constraintStart_toStartOf="@+id/avatar2"
+        app:layout_constraintTop_toTopOf="@+id/avatar2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/zapatosmujer"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/color1B"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/color2B"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/color3B"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
